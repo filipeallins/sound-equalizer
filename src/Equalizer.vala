@@ -8,7 +8,7 @@ public class Equalizer : Gtk.Application {
     }
 
     protected override void activate () {
-        var window = new Sound_Equalizer.Equalizer_window (this);
+        var window = new Sound_Equalizer.Equalizer_GUI (this);
 
         add_window (window);
     }

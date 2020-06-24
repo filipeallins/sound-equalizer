@@ -1,6 +1,6 @@
-public class Sound_Equalizer.Equalizer_window : Gtk.ApplicationWindow {
+public class Sound_Equalizer.Equalizer_GUI : Gtk.ApplicationWindow {
     
-    public Equalizer_window (Equalizer app) {
+    public Equalizer_GUI (Equalizer app) {
         Object (
             application: app
         );
